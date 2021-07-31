@@ -1,0 +1,40 @@
+/* Questions 
+1) With code examples, explain let, var and const keywords.
+2) Create a variable called z, assign x + y to it, and display the result in an alert box.
+3) Display the sum of 5 + 10, using two variables: x and y.
+4) Create a variable called carName, assign the value Volvo to it.
+5) What error message do you get when you try to redeclare a variable stored with let and const 
+6) What error message is displayed when you try to access the block scope variables outside the block ?
+
+
+1) var can be redeclared and assigned :
+var x = 7;
+var x = 8;
+x = 9;
+consolog.log(x);
+It will log 9.
+
+let cannot be redeclared but can be reassigned :
+let x = 7;
+x = 8;
+consolog.log(x);
+It will log 8.
+const cannot be redeclared or reassigned because these variables are constant :
+const x = 7;
+x = 8; 
+consolog.log(x);
+This will throw a SyntaxError 
+
+2) let z = x + y;
+  alert(z);
+
+3) let x = 5;
+let y = 10;
+Let sum = x + y;
+consolog.log(sum);
+
+4) let carName = Volvo;
+
+5) SyntaxError
+
+6)  ReferenceError */
